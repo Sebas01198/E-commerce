@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 .contenedor{
-    width: 90%;
-    max-width: 1250px;
-    margin: 0 auto;
+    padding-right: 10%;
+    padding-left: 10%;
 }
