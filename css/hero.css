@@ -28,6 +28,7 @@
     font-weight: 700;
 }
 .btn{
+    display: flex;
     padding-top: 35px;
     padding-bottom: 20px;
 }
@@ -45,4 +46,16 @@
 }
 .btn button:hover{
     background-color: rgb(78, 77, 77);
+}
+
+@media screen and (max-width:768px) {
+    .info{
+        width: 100%;
+        max-width: 90%;
+        
+    }
+    .btn{
+       display: flex;
+       justify-content: center;
+    }
 }

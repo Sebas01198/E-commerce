@@ -73,3 +73,30 @@ img{
     left: 190px;
     bottom: 100px;
 }
+
+
+@media screen and (max-width:982px) {
+    .photos{
+        flex-direction: column;
+        height: auto;
+    
+    }
+    .images{
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+    }
+    .images-2{
+        display: none;
+        margin: 0 auto;
+    }
+    .three{
+        display: none;
+    }
+    .contens-image{
+        width: 100%;
+        margin: 50px auto;
+        text-align: center;
+    }
+    
+}
