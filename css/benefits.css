@@ -1,0 +1,56 @@
+.benefits{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title_benefits{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.benefit_features{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.benefit_features div{
+    margin: 2rem;
+    box-sizing: border-box;
+}
+
+.box_card.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    
+    display: flex;
+    justify-content: center;
+    background-color: #fbc101;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+.box_card h3{
+    text-align: center;
+    padding: 1rem 0rem 2rem;
+
+    font-weight: bold;
+}
+
+.box_card p{
+    text-align: center;
+    color: #313131;
+}
+
+.introduction_to_benefits h2{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.title_benefits{
+    padding: 3rem 0 0 2.3rem;
+}
